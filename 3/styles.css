@@ -1,0 +1,49 @@
+/*menos importante*/
+h3 {
+  color:#e74c3c;
+  font-size: 30px;
+  font-family: 'Muli', sans-serif;
+  font-weight: 400;
+}
+
+img {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  border: #2ecc71 solid 15px;
+}
+
+section {
+  border: #9b59b6 solid .5px;
+}
+
+.home-section {
+  background-color: rgba(46, 204, 112, 0.65);
+}
+
+.squared {
+  border-radius: 10%;
+}
+
+/*importancia media*/
+#title-navbar {
+  color: #3498db;
+  font-size: 30px;
+  font-family: 'Muli', sans-serif;
+  font-weight: 400;
+}
+
+/*importancia leve*/
+.navbar-title {
+  color: #9b59b6 !important;
+  font-size: 30px;
+  font-family: 'Muli', sans-serif;
+  font-weight: 400;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+
+
