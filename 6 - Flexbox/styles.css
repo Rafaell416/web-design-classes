@@ -1,0 +1,177 @@
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0 0 5px 0;
+  font-family: monospace;
+}
+
+span {
+  font-family: monospace;
+  font-size: 16px;
+}
+
+section {
+  margin-bottom: 30px;
+}
+
+.parent {
+  background-color: white;
+  border: solid #34495e 1px;
+  border-radius: 10px;
+  padding: 30px;
+  display: flex;
+}
+
+.child {
+  background-color: #9b59b6;
+  border-radius: 10px;
+  margin: 5px;
+  padding: 20px;
+}
+
+.child span {
+  font-family: monospace;
+  font-size: 20px;
+  color: white;
+  font-weight: bold;
+}
+
+#row-section .parent {
+  flex-direction: row;
+}
+
+#column-section .parent {
+  flex-direction: column;
+} 
+
+#column-reverse-section .parent {
+  flex-direction: column-reverse;
+}
+
+#row-reverse-section .parent {
+  flex-direction: row-reverse;
+}
+
+#nowrap-section .parent {
+  flex-wrap: nowrap;
+}
+
+#wrap-section .parent {
+  flex-wrap: wrap;
+}
+
+#wrap-reverse-section .parent {
+  flex-wrap: wrap-reverse;
+}
+
+#flex-start-section .parent {
+  justify-content: flex-start;
+}
+
+#flex-end-section .parent {
+  justify-content: flex-end;
+}
+
+#center-section .parent {
+  justify-content: center;
+}
+
+#space-between-section .parent .child {
+  margin: 0;
+}
+
+#space-between-section .parent {
+  justify-content: space-between;
+  padding: 0;
+}
+
+#space-around-section .parent .child {
+  margin: 0;
+}
+
+#space-around-section .parent {
+  padding: 0;
+  justify-content: space-around;
+}
+
+#space-evenly-section .parent .child {
+  margin: 0;
+}
+
+#space-evenly-section .parent {
+  padding: 0;
+  justify-content: space-evenly;
+}
+
+#start-section .parent {
+  padding: 0;
+  height: 150px;
+  align-items: flex-start;
+} 
+
+#end-section .parent {
+  padding: 0;
+  height: 150px;
+  align-items: flex-end;
+}
+
+
+#align-center-section .parent {
+  padding: 0;
+  height: 150px;
+  align-items: center;
+}
+
+
+#stretch-section .parent {
+  padding: 0;
+  height: 150px;
+  align-items: stretch;
+}
+
+#self-section .parent {
+  padding: 0;
+  height: 150px;
+  align-items: flex-start;
+}
+
+.self {
+  align-self: flex-end;
+}
+
+.flex-parent {
+  background-color: white;
+  border: solid #34495e 1px;
+  border-radius: 10px;
+  display: flex;
+}
+
+.flex-child {
+  padding: 20px;
+  flex: 1;
+}
+
+.flex-child span {
+  font-family: monospace;
+  font-size: 20px;
+  color: white;
+  font-weight: bold;
+}
+
+.child-1 {
+  background-color: #2ecc71;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.child-2 {
+  background-color: #3498db;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+
