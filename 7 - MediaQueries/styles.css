@@ -1,0 +1,94 @@
+body {
+  margin: 0;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+@media (max-width: 500px) {
+  .img-container {
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    overflow: hidden;
+  }
+}
+
+.parent {
+  display: flex;
+  flex-direction: row;
+}
+
+@media (max-width: 480px) {
+  .parent {
+    flex-direction: column;
+  }
+}
+
+
+.child {
+  padding: 20px;
+  border: solid red 1px;
+  flex: 1;
+}
+
+/*
+  - invocar al media query
+  - abrir paréntesis
+  - width o height
+  - valor de medida
+  - abrir los corchetes
+  - modificación al elemento (nuevo css)
+
+  @media ${rules} (${dimention-property}: ${dimention-value}) {
+    new style for defined screen size
+  }
+
+*/
+
+
+.bottom-navigation {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: none;
+  background-color: lightgray;
+  border-radius: 3px;
+  justify-content: space-evenly;
+  align-items: center;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.tab {
+  background-color: white;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 12px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+@media (max-width: 500px) {
+  .bottom-navigation {
+    display: flex;
+  }
+}
+
+
+p {
+  font-size: 5vw;
+}
+
+/*
+  vw (viewport width): 10vw would be 10% of the viewport's width.
+  vh (viewport height): 3vh would be 3% of the viewport's height.
+  vmin (viewport minimum): 70vmin would be 70% of the viewport's smaller dimension (height or width).
+  vmax (viewport maximum): 100vmax would be 100% of the viewport's bigger dimension (height or width).
+*/
+
