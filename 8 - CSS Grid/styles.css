@@ -1,0 +1,88 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0 0 5px 0;
+  font-family: monospace;
+}
+
+span {
+  font-family: monospace;
+  font-size: 16px;
+}
+
+section {
+  margin-bottom: 30px;
+}
+
+
+.parent {
+  background-color: white;
+  border: solid #34495e 1px;
+  border-radius: 10px;
+  padding: 10px;
+  display: grid;
+}
+
+.child {
+  background-color: #9b59b6;
+  border-radius: 10px;
+  margin: 5px;
+  padding: 20px;
+}
+
+.child span {
+  font-family: monospace;
+  font-size: 20px;
+  color: white;
+  font-weight: bold;
+}
+
+#template-columns-section .parent {
+  grid-template-columns: 50px 50px auto;
+}
+
+#template-rows-section .parent {
+  grid-template-columns: 50px 50px auto;
+  grid-template-rows: 50% 50%;
+  column-gap: 10px;
+  row-gap: 10px;
+}
+
+#start-section .parent {
+  grid-template-columns: 50px 50px auto;
+  grid-template-rows: 50% 50%;
+  column-gap: 10px;
+  row-gap: 10px;
+
+  justify-items: start;
+}
+
+#end-section .parent {
+  grid-template-columns: 50px 50px auto;
+  grid-template-rows: 50% 50%;
+  column-gap: 10px;
+  row-gap: 10px;
+
+  justify-items: end;
+}
+
+#center-section .parent {
+  grid-template-columns: auto auto auto;
+  grid-template-rows: 50% 50%;
+  column-gap: 10px;
+  row-gap: 10px;
+
+  justify-items: center;
+}
+
+#stretch-section .parent {
+  grid-template-columns: 50px 50px auto;
+  grid-template-rows: 50% 50%;
+  column-gap: 10px;
+  row-gap: 10px;
+
+  justify-items: stretch;
+}

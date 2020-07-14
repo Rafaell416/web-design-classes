@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSS Grid</title>
+  <link rel="stylesheet" href="styles.css" type="text/css"/>
+</head>
+<body>
+  <h1>CSS Grid Layout</h1>
+
+  <section id="concepts">
+    <h3>CSS Grid concepts</h3>
+    <ul>
+      <li>Grid Line: Divider line between Grid Cells</li>
+      <li>Grid Cell: Each child element of a display grid parent</li>
+      <li>Grid Track: Space between Grid Lines</li>
+      <li>Grid Area: One or more Grid Cell</li>
+    </ul>
+  </section>
+
+  <section id="grid-section">
+    <h3>display: grid;</h3>
+    <div class="parent">
+      <div class="child"><span>1</span></div>
+      <div class="child"><span>2</span></div>
+      <div class="child"><span>3</span></div>
+      <div class="child"><span>4</span></div>
+    </div>
+  </section>
+
+  <section id="template-columns-section">
+    <h3>grid-template-columns: 50px 50px auto;</h3>
+    <div class="parent">
+      <div class="child"><span>1</span></div>
+      <div class="child"><span>2</span></div>
+      <div class="child"><span>3</span></div>
+      <div class="child"><span>4</span></div>
+    </div>
+  </section>
+
+  <section id="template-rows-section">
+    <h3>grid-template-rows: 50% 50%;</h3>
+    <div class="parent">
+      <div class="child"><span>1</span></div>
+      <div class="child"><span>2</span></div>
+      <div class="child"><span>3</span></div>
+      <div class="child"><span>4</span></div>
+    </div>
+  </section>
+
+  <section id="start-section">
+    <h3>justify-items: start;</h3>
+    <div class="parent">
+      <div class="child"><span>1</span></div>
+      <div class="child"><span>2</span></div>
+      <div class="child"><span>3</span></div>
+      <div class="child"><span>4</span></div>
+    </div>
+  </section>
+
+  <section id="center-section">
+    <h3>justify-items: center;</h3>
+    <div class="parent">
+      <div class="child"><span>1</span></div>
+      <div class="child"><span>2</span></div>
+      <div class="child"><span>3</span></div>
+      <div class="child"><span>4</span></div>
+    </div>
+  </section>
+
+  <section id="stretch-section">
+    <h3>justify-items: stretch;</h3>
+    <div class="parent">
+      <div class="child"><span>1</span></div>
+      <div class="child"><span>2</span></div>
+      <div class="child"><span>3</span></div>
+      <div class="child"><span>4</span></div>
+    </div>
+  </section>
+
+</body>
+</html>
